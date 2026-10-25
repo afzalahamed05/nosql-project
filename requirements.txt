@@ -1,0 +1,26 @@
+# Backend dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pymongo==4.6.0
+pydantic==2.5.0
+python-multipart==0.0.6
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.0
+
+# Machine learning dependencies
+scikit-learn==1.3.2
+numpy==1.24.4
+pandas==2.1.4
+
+# Data visualization (for evaluation)
+matplotlib==3.8.2
+seaborn==0.13.0
+
+# Development dependencies
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2
+
+# Windows specific (if needed)
+pywin32==306
